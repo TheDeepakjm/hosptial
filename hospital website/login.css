@@ -1,0 +1,345 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://wallpaperaccess.com/full/630657.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+}
+
+.form-box {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: linear-gradient(90deg, #f0e5e4 0%, #f01804 100%);
+    padding: 5px;
+    box-shadow: rgb(88, 1, 88);
+    overflow: hidden;
+    border-radius: 30px;
+    background: transparent;
+}
+
+.button-box {
+    background: linear-gradient(90deg, #efd5ff 0%, #fefefe 100%);
+    width: 220px;
+    margin: 40px auto;
+    position: relative;
+    box-shadow: 0 0 25px 40px rgba(246, 4, 4, 0.122);
+    border-radius: 30px;
+  
+}
+
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(90deg, #07e7c5 0%, #1bf603 100%);
+    border-radius: 30px;
+    transition: .3s;
+    
+}
+.box ::placeholder{
+   padding: 10px 10px;
+    background-color: whitesmoke;
+    border-radius: 2px;
+}
+
+.social-icons {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.social-icons,
+img {
+    width: 30px;
+    margin: o 12px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+img:hover {
+    width: 35px;
+    margin: 0 20px;
+    box-shadow: 0 0 2px 0 #e7e70f;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.input-group {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transform: .5s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #b3a5a5;
+    outline: none;
+    background: transparent;
+    color: black;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(90deg, rgb(5, 76, 243) 0%, #0454f4 100%);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box {
+    margin: 30px 10px 30px 0;
+}
+
+span {
+    color: #0e0505;
+    font: 15px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#login {
+    left: 50px;
+}
+
+#Register {
+    left: 400px;
+}
+
+.patient-LOGIN {
+    font-size: 15PX;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    margin-top: -20px;
+
+    animation: glow 1s infinite alternate;
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #3F2B96, 0 0 20px #A8C0FF, 0 0 30px #A8C0FF;
+    }
+    100% {
+        text-shadow: 0 0 20px #d10d34, 0 0 30px #fb3fa6, 0 0 40px #bb0bcf;
+    }
+}
+
+.hospital-name {
+    font-size: 20PX;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    animation: glow 1s infinite alternate;
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #3810e9, 0 0 20px #0b3dbd, 0 0 30px #0d49e0;
+    }
+    100% {
+        text-shadow: 0 0 20px #0dd1cb, 0 0 30px #0aacec, 0 0 40px #da05f2;
+    }
+}
+#z1{
+    color: white;
+}
+#z2{
+    color: white;
+}
+.foot{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+  }
+  .foot h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+  .foot{
+    background-color:rgb(35, 138, 222);
+    margin-top: -100px;
+  } 
+  .nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+  }
+  .nav-link ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    
+  }
+  .nav-link ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #453b01;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  .nav-link ul li:hover::after{
+    width: 100%;
+  }
+  .input-field{
+    color: yellow;
+  }
+/* .hbtn{
+    border-radius: 2px;
+  }
+  nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav img{
+    width: 100px;
+  }
+  h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color:whitesmoke;
+    margin-top: 150px;
+    margin-left: 10px;
+  }
+  #dd2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;margin-top: 200px;margin-left: 100px;
+  }
+  #dd1{
+    margin-left: -350px;margin-top:150px;font-size: 20px;color: #fff;
+  }
+ 
+  .icon .fa{
+    color: #836400;
+    margin:  13px;
+    cursor: pointer;
+    padding: 18px ;
+  }
+
+  /* .about{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  } */
+  /* nav{
+    display: flex;
+   margin-top: -50px;margin-left: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav img{
+    width: 150px;
+    margin-top: 50px;margin-left: -40px;
+  }
+  h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    margin-top: 50px;
+  }
+  b{
+    font-size: 24px;
+  }
+  p{
+    font-size: 13px;
+  }
+  .nav-links{
+    flex: 1;
+    text-align: right;
+  }
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+  .nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    
+  }
+  .nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #453b01;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  .nav-links ul li:hover::after{
+    width: 100%;
+  }
+  .txt{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .txt h2{
+    padding-top: 100px;
+    font-size: 55px;
+  }
+  .txt p{
+    margin: 10px 40px;
+    font-size: 14px;
+    color: #fff;
+  }
+  .hbtn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #615302;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+ 

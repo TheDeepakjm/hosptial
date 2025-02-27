@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaf conatact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="home.html"><img width="150" height="150" src="images.jpg"></a>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="doctors.html">Doctors</a></li>
+                    <li><a href="tour.html">Hospital tour</a></li>
+                    <li><a href="./login.html">Patient Login</a></li>
+                    <li><a href="donation.html">Donation</a></li>
+                    <li><a href="appointment.html">Appointment</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="contact">
+        <h1>Contact us</h1>
+        <div class="row">
+            <div class="col">
+                <b>
+                    <p>Email us at info@leafhosptial.com</p>
+                    <p>Address:</p>
+                </b><br>
+                <iframe
+                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg6GPuxj-1Oas9uu1Ds1BLEiVRlh-IJDTY4w&usqp=CAU"
+                    width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col2">
+                <br><br>
+                <form onsubmit="event.preventDefault(); validiteForm()">
+
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Your Name">
+                    <small class="error"></small>
+
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" placeholder="Your email">
+                    <small class="error"></small>
+
+                    <label for="message">Message</label>
+                    <input type="text" id="name" placeholder="Your Message">
+                    <small class="error"></small>
+                    <div class="center">
+                        <input type="submit" value="Send Message">
+                        <p id="success"></p>
+                    </div>
+                </form>
+            </div>
+            <script src="script.js"></script>
+
+        </div>
+    </section>
+
+    <section class="foot">
+        <p>
+            <b1>Contact Us:</b1> <i class="fa fa-phone"></i>
+            <b1>+91 8123079337</b1>
+        </p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Follow Us</p>
+    </section>
+</body>
+
+</html>

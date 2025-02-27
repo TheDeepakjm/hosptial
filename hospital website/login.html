@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient login portal</title>
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js.js"></script>
+</head>
+
+<body>
+
+    <div class="hero">
+        <div class="form-box">
+            <div class="hospital-name">
+                LEAF VILLAGE HOSPITAL
+            </div>
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+
+            </div>
+            <div class="patient-LOGIN">
+                PATIENT-LOGIN
+            </div>
+            <div class="box">
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="user id" required>
+                <input type="text" class="input-field" placeholder="Enter password" required>
+                <input type="checkbox" class="check-box"> <span id="z2">Remember password</span>
+                <button type="submit" class="submit-btn">log in</button>
+
+            </form>
+            <form id="Register" class="input-group">
+                <input type="text" class="input-field" placeholder="user id" required>
+                <input type="text" class="input-field" placeholder="Email id" required>
+                <input type="text" class="input-field" placeholder="Enter password" required>
+                <input type="checkbox" class="check-box"> <span id="z1">i agree to the terms and conditions </span>
+                <button type="submit" class="submit-btn">Register</button>
+
+            </form>
+        </div>
+
+        </div>
+        <section class="foot">
+            <p>
+                <b1>Contact Us:</b1> <i class="fa fa-phone"></i>
+                <b1>+918123079337</b1>
+            </p>
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </section>
+
+    </div>
+    <script src="./login.js">
+    </script>
+
+</body>
+
+</html>
